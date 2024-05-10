@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="profile" href="https://gmpg.org/xfn/11" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <title>Mê phim TV - Xem phim trực tuyến miễn phí</title>
+        <link rel="stylesheet" href="https://mephimtvi.com/wp-content/cache/min/1/4a183cd4781762c26c945d8c744f99d0.css" media="all" data-minify="1" />
+        <link rel="canonical" href="https://mephimtvi.com/" />
+        <meta property="og:url" content="https://mephimtvi.com/" />
+        <meta property="og:image" content="https://mephimtvi.com/wp-content/uploads/2022/05/graph-default-image.jpg" />
+        <meta property="og:image:secure_url" content="https://mephimtvi.com/wp-content/uploads/2022/05/graph-default-image.jpg" />
+
+<style>
+    .movie-blocks__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #recommendButton {
+        background-color: #333; /* Màu nền */
+        border: none; /* Loại bỏ viền */
+        color: white; /* Màu chữ */
+        padding: 10px 20px; /* Kích thước của nút */
+        text-align: center; /* Căn giữa nội dung */
+        text-decoration: none; /* Loại bỏ gạch chân */
+        display: inline-block; /* Hiển thị như khối */
+        font-size: 16px; /* Cỡ chữ */
+        margin-right: 10px; /* Khoảng cách bên phải */
+        cursor: pointer; /* Chỉ con trỏ chuột */
+        border-radius: 5px; /* Đường viền cong */
+    }
+    
+    #recommendButton:hover {
+        background-color: #45a049; /* Màu nền khi di chuột qua */
+    }
+</style>
+<style id='rank-math-toc-block-style-inline-css' type='text/css'>
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+#movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+.movie-image {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.movie-item:hover .movie-image img {
+    transform: scale(1.1);
+}
+
+
+</style>
+
+
+
+
+<script type="text/javascript" src="https://mephimtvi.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+
+
+
+<link rel="https://api.w.org/" href="https://mephimtvi.com/wp-json/" /><link rel="alternate" type="application/json" href="https://mephimtvi.com/wp-json/wp/v2/pages/11786" /><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>		
+    </head>
+    <body data-rsssl=1 class="home page-template-default page page-id-11786">
+        <header class="site-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <span class="navbar-toggler" data-target="#navbar" data-toggle="collapse"><svg viewBox="0 0 25 25"><use xlink:href="https://mephimtvi.com/wp-content/themes/dark-movie/img/icons.svg#sort" /></svg></span>
+                    <a class="navbar-brand" href="https://mephimtvi.com"><img width="259" height="80" src="https://mephimtvi.com/wp-content/themes/dark-movie/img/logo.png" alt="Phim Hay | Phim HD Vietsub | Xem Phim Online | Xem Phim Nhanh" /></a>                    <span class="navbar-search" data-target="#msearch" data-toggle="collapse"><svg viewBox="0 0 25 25"><use xlink:href="https://mephimtvi.com/wp-content/themes/dark-movie/img/icons.svg#search" /></svg></span>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul id="menu-main-menu" class="navbar-nav">
+                        <li ><a href="/" aria-current="page">Trang chủ</a></li>
+                        <li ><a >Phim lẻ</a></li>
+                        <li ><a >Phim bộ</a></li>
+                        <li ><a >Phim Chiếu Rạp</a></li>
+                        <li ><a href="#">Đăng Nhập</a>
+                        <ul class="sub-menu">
+                            <li id="0" ><a href="/select_user">User 0</a></li>
+                            <li id="1" ><a href="/select_user">User 1</a></li>
+                            <li id="2" ><a href="/select_user">User 2</a></li>
+                            <li id="3" ><a href="/select_user">User 3</a></li>
+                            <li id="4" ><a href="/select_user">User 4</a></li>
+                            <li id="5" ><a href="/select_user">User 5</a></li>
+                            <li id="6" ><a href="/select_user">User 6</a></li>
+                            <li id="7" ><a href="/select_user">User 7</a></li>
+                            <li id="8" ><a href="/select_user">User 8</a></li>
+                            <li id="9" ><a href="/select_user">User 9</a></li>
+                            <li id="10" ><a href="/select_user">User 10</a></li>
+                        </ul>
+                        </li>
+                        <li ><a href="#">Thể loại</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Âm Nhạc</a></li> <li><a href="#">Bí ẩn</a></li> <li><a href="#">Chiến Tranh</a></li> <li><a href="#">Chính kịch</a></li> <li><a href="#">Cổ Trang</a></li>
+                            <li><a href="#">Gia Đình</a></li> <li><a href="#">Hài Hước</a></li> <li><a href="#">Hành động</a></li> <li><a href="#">Hình Sự</a></li> <li><a href="#">Học Đường</a></li>
+                            <li><a href="#">Khoa Học</a></li> <li><a href="#">Kinh Dị</a></li> <li><a href="#">Kinh Điển</a></li> <li><a href="#">Phiêu Lưu</a></li> <li><a href="#">Tài Liệu</a></li>
+                            <li><a href="#">TV Shows</a></li> <li><a href="#">Viễn Tưởng</a></li> <li><a href="#">Võ Thuật</a></li>
+                        </ul>
+                        </li>
+                        <li ><a href="#">Hoạt hình</a></li>
+                        </ul>             
+        </header>
+
+        <main class="site-main" id="sitemain">
+            <div class="container">
+                <div class="movie-blocks"><div class="movie-blocks__heading"><h2>Phim HOT</h2></div><div class="swiper swiper-carousel" id="swiper-663c211d4586b"><div class="swiper-wrapper"><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/xin-hay-yeu-anh-nhu-vay/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Xin Hãy Yêu Anh Như Vậy" title="Xin Hãy Yêu Anh Như Vậy" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/05/xin-hay-yeu-anh-nhu-vay-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/05/xin-hay-yeu-anh-nhu-vay-thumb.jpg" alt="Xin Hãy Yêu Anh Như Vậy" title="Xin Hãy Yêu Anh Như Vậy" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 16 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Men In love - Xin Hãy Yêu Anh Như Vậy">
+                    <span>Men In love</span>            <h3>Xin Hãy Yêu Anh Như Vậy</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/cap-nhi-tan-1944/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Cáp Nhĩ Tân 1944" title="Cáp Nhĩ Tân 1944" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/cap-nhi-tan-1944-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/cap-nhi-tan-1944-thumb.jpg" alt="Cáp Nhĩ Tân 1944" title="Cáp Nhĩ Tân 1944" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 36 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="In the Name of the Brother - Cáp Nhĩ Tân 1944">
+                    <span>In the Name of the Brother</span>            <h3>Cáp Nhĩ Tân 1944</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/vi-am-chi-hoa/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="333" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20333'%3E%3C/svg%3E" alt="Vi Ám Chi Hoả" title="Vi Ám Chi Hoả" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/vi-am-chi-hoa-thumb.jpg" /><noscript><img width="250" height="333" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/vi-am-chi-hoa-thumb.jpg" alt="Vi Ám Chi Hoả" title="Vi Ám Chi Hoả" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 24 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Tender Light - Vi Ám Chi Hoả">
+                    <span>Tender Light</span>            <h3>Vi Ám Chi Hoả</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/dai-tieu-thu-vuot-qua-chong-gai/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="351" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20351'%3E%3C/svg%3E" alt="Đại Tiểu Thư Vượt Qua Chông Gai" title="Đại Tiểu Thư Vượt Qua Chông Gai" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/dai-tieu-thu-vuot-qua-chong-gai-thumb.jpg" /><noscript><img width="250" height="351" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/dai-tieu-thu-vuot-qua-chong-gai-thumb.jpg" alt="Đại Tiểu Thư Vượt Qua Chông Gai" title="Đại Tiểu Thư Vượt Qua Chông Gai" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 16 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Lady Revenger Returns From the Fire - Đại Tiểu Thư Vượt Qua Chông Gai">
+                    <span>Lady Revenger Returns From the Fire</span>            <h3>Đại Tiểu Thư Vượt Qua Chông Gai</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/phat-thanh-vien-thanh-that/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Phát Thanh Viên Thành Thật" title="Phát Thanh Viên Thành Thật" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/05/phat-thanh-vien-thanh-that-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/05/phat-thanh-vien-thanh-that-thumb.jpg" alt="Phát Thanh Viên Thành Thật" title="Phát Thanh Viên Thành Thật" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 2 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Frankly Speaking - Phát Thanh Viên Thành Thật">
+                    <span>Frankly Speaking</span>            <h3>Phát Thanh Viên Thành Thật</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/tiem-chup-anh-ma-quai/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="356" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20356'%3E%3C/svg%3E" alt="Tiệm Chụp Ảnh Ma Quái" title="Tiệm Chụp Ảnh Ma Quái" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/03/tiem-chup-anh-ma-quai-thumb.jpg" /><noscript><img width="250" height="356" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/03/tiem-chup-anh-ma-quai-thumb.jpg" alt="Tiệm Chụp Ảnh Ma Quái" title="Tiệm Chụp Ảnh Ma Quái" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Vietsub</span><span class="badge badge-status badge-success">Hoàn thành</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="The Midnight Studio - Tiệm Chụp Ảnh Ma Quái">
+                    <span>The Midnight Studio</span>            <h3>Tiệm Chụp Ảnh Ma Quái</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/cong-anh-ma-chay/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="356" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20356'%3E%3C/svg%3E" alt="Cõng Anh Mà Chạy" title="Cõng Anh Mà Chạy" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/cong-anh-ma-chay-thumb.jpg" /><noscript><img width="250" height="356" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/cong-anh-ma-chay-thumb.jpg" alt="Cõng Anh Mà Chạy" title="Cõng Anh Mà Chạy" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 10 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Lovely Runner - Cõng Anh Mà Chạy">
+                    <span>Lovely Runner</span>            <h3>Cõng Anh Mà Chạy</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/sac-xuan-gui-nguoi-tinh/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Sắc Xuân Gửi Người Tình" title="Sắc Xuân Gửi Người Tình" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/sac-xuan-gui-nguoi-tinh-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/sac-xuan-gui-nguoi-tinh-thumb.jpg" alt="Sắc Xuân Gửi Người Tình" title="Sắc Xuân Gửi Người Tình" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Vietsub</span><span class="badge badge-status badge-success">Hoàn thành</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Will Love In Spring - Sắc Xuân Gửi Người Tình">
+                    <span>Will Love In Spring</span>            <h3>Sắc Xuân Gửi Người Tình</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/thu-thach-than-tuong/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Thử Thách Thần Tượng" title="Thử Thách Thần Tượng" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2022/07/thu-thach-than-tuong-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2022/07/thu-thach-than-tuong-thumb.jpg" alt="Thử Thách Thần Tượng" title="Thử Thách Thần Tượng" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 410-669 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="RUNNING MAN - Thử Thách Thần Tượng">
+                    <span>RUNNING MAN</span>            <h3>Thử Thách Thần Tượng</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/mat-tich/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Mất Tích" title="Mất Tích" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2023/03/mat-tich-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2023/03/mat-tich-thumb.jpg" alt="Mất Tích" title="Mất Tích" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Vietsub</span><span class="badge badge-status badge-success">Hoàn thành</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Missing - Mất Tích">
+                    <span>Missing</span>            <h3>Mất Tích</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/nu-hoang-nuoc-mat/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Nữ Hoàng Nước Mắt" title="Nữ Hoàng Nước Mắt" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/03/nu-hoang-nuoc-mat-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/03/nu-hoang-nuoc-mat-thumb.jpg" alt="Nữ Hoàng Nước Mắt" title="Nữ Hoàng Nước Mắt" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Vietsub</span><span class="badge badge-status badge-success">Hoàn thành</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Queen of Tears - Nữ Hoàng Nước Mắt">
+                    <span>Queen of Tears</span>            <h3>Nữ Hoàng Nước Mắt</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/one-piece-2/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="397" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20397'%3E%3C/svg%3E" alt="Đảo Hải Tặc" title="Đảo Hải Tặc" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2022/07/one-piece-thumb.jpg" /><noscript><img width="250" height="397" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2022/07/one-piece-thumb.jpg" alt="Đảo Hải Tặc" title="Đảo Hải Tặc" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Tập 1025 + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="One Piece (Luffy) - Đảo Hải Tặc">
+                    <span>One Piece (Luffy)</span>            <h3>Đảo Hải Tặc</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/tich-hoa-chi/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Tích Hoa Chỉ" title="Tích Hoa Chỉ" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/tich-hoa-chi-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/tich-hoa-chi-thumb.jpg" alt="Tích Hoa Chỉ" title="Tích Hoa Chỉ" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Hoàn Tất (40/40) + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Blossoms in Adversity - Tích Hoa Chỉ">
+                    <span>Blossoms in Adversity</span>            <h3>Tích Hoa Chỉ</h3>
+                </summary>
+            </a>
+        </article><article class="movie-item swiper-slide" role="article">
+            <a href="https://mephimtvi.com/thua-hoan-ky/" role="link">
+                <thumb class="movie-image" aria-label="thumbnail">
+                    <img width="250" height="375" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E" alt="Thừa Hoan Ký" title="Thừa Hoan Ký" data-lazy-src="https://mephimtvi.com/wp-content/uploads/2024/04/thua-hoan-ky-thumb.jpg" /><noscript><img width="250" height="375" decoding="async" src="https://mephimtvi.com/wp-content/uploads/2024/04/thua-hoan-ky-thumb.jpg" alt="Thừa Hoan Ký" title="Thừa Hoan Ký" /></noscript>            <span class="movie-badge">
+                        <span class="badge badge-episode">Hoàn Tất (37/37) + Vietsub</span>            </span>
+                </thumb>
+                <summary class="movie-summary" aria-label="Best Choice Ever - Thừa Hoan Ký">
+                    <span>Best Choice Ever</span>            <h3>Thừa Hoan Ký</h3>
+                </summary>
+            </a>
+        </article></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div>
+
+
+        <div class="movie-blocks"><div class="movie-blocks__heading"><h2>Recommend Movies for User {{ user_id }}</h2><form action="/recommend_action" method="post">
+            <input type="hidden" name="user_id" value="{{ user_id }}">
+            <button id="recommendButton" type="submit">Recommend</button>
+        </form>
+        </div>
+        <h2>RSME: {{ rsme }}</h2><h2>Top Recommended Movies By ID:</h2> 
+        <ul>
+            {% for movie in recommend_movies %}
+            <li>Movie ID: {{ movie[0] }} - Predicted Rating: {{ movie[1] }}</li>
+            {% endfor %}
+        </ul>
+        <h2>Recommended Movie For You:</h2>
+        <div id="movies-list"></div>
+    <script>
+        const movies = [
+            {
+                "id": 0,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/tram-truong/",
+                "thumb": {
+                    "class": "movie-image",
+                    "aria-label": "thumbnail",
+                    "img": {
+                        "width": 250,
+                        "height": 375,
+                        "decoding": "async",
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                        "alt": "Trạm Trưởng",
+                        "title": "Trạm Trưởng",
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                        "noscript": {
+                            "img": {
+                                "width": 250,
+                                "height": 375,
+                                "decoding": "async",
+                                "src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                                "alt": "Trạm Trưởng",
+                                "title": "Trạm Trưởng"
+                            }
+                        }
+                    },
+                    "badge": {
+                        "class": "movie-badge",
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                    }
+                },
+                "summary": {
+                    "class": "movie-summary",
+                    "aria-label": "Chief of Station - Trạm Trưởng",
+                    "span": "Chief of Station",
+                    "h3": "Trạm Trưởng"
+                }
+            },
+            {
+                "id": 1,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/hanh-tinh-khi-vuong-quoc-moi/",
+                "thumb": {
+                    "class": "movie-image",
+                    "aria-label": "thumbnail",
+                        "img": {
+                        "width": 250,
+                        "height": 375,
+                        "decoding": "async",
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                        "alt": "Hành Tinh Khỉ: Vương Quốc Mới",
+                        "title": "Hành Tinh Khỉ: Vương Quốc Mới",
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                            "noscript": {
+                                "img": {
+                                "width": 250,
+                                "height": 375,
+                                "decoding": "async",
+                                "src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                                "alt": "Hành Tinh Khỉ: Vương Quốc Mới",
+                                "title": "Hành Tinh Khỉ: Vương Quốc Mới"
+                                }
+                        }
+                    },
+                    "badge": {
+                    "class": "movie-badge",
+                    "badge-episode": "Vietsub",
+                    "badge-status": "Sắp chiếu"
+                    }
+                },
+                "summary": {
+                "class": "movie-summary",
+                "aria-label": "Kingdom of the Planet of the Apes - Hành Tinh Khỉ: Vương Quốc Mới",
+                "span": "Kingdom of the Planet of the Apes",
+                "h3": "Hành Tinh Khỉ: Vương Quốc Mới"
+                    }
+                },
+                {
+                "id": 2,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/y-niem-ve-anh/",
+                    "thumb": {
+                        "class": "movie-image",
+                        "aria-label": "thumbnail",
+                        "img": {
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/y-niem-ve-anh-thumb.jpg",
+                        "alt": "Ý Niệm Về Anh",
+                        "title": "Ý Niệm Về Anh",
+                        "noscript": {
+                          "img": {
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/y-niem-ve-anh-thumb.jpg",
+                            "alt": "Ý Niệm Về Anh",
+                            "title": "Ý Niệm Về Anh"
+                          }
+                        }
+                      },
+                      "badge": {
+                        "class": "movie-badge",
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Sắp chiếu"
+                      }
+                    },
+                    "summary": {
+                      "class": "movie-summary",
+                      "aria-label": "The Idea of You - Ý Niệm Về Anh",
+                      "span": "The Idea of You",
+                      "h3": "Ý Niệm Về Anh"
+                    }
+                },
+                { 
+                "id": 3,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/chi-em-lang-nhang/",
+                    "thumb": {
+                        "class": "movie-image",
+                        "aria-label": "thumbnail",
+                        "img": {
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/chi-em-lang-nhang-thumb.jpg",
+                        "alt": "Chị Em Lăng Nhăng",
+                        "title": "Chị Em Lăng Nhăng",
+                        "noscript": {
+                          "img": {
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/chi-em-lang-nhang-thumb.jpg",
+                            "alt": "Chị Em Lăng Nhăng",
+                            "title": "Chị Em Lăng Nhăng"
+                          }
+                        }
+                      },
+                      "badge": {
+                        "class": "movie-badge",
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                      }
+                    },
+                "summary": {
+                      "class": "movie-summary",
+                      "aria-label": "The Sister of Ursula - Chị Em Lăng Nhăng",
+                      "span": "The Sister of Ursula",
+                      "h3": "Chị Em Lăng Nhăng"
+                    }
+                },
+                  
+                    
+                {
+                "id": 4,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/rachel-getting-married/",
+                    "thumb": {
+                        "class": "movie-image",
+                        "aria-label": "thumbnail",
+                        "img": {
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/rachel-getting-married-thumb.jpg",
+                        "alt": "Rachel Getting Married",
+                        "title": "Rachel Getting Married",
+                            "noscript": {
+                              "img": {
+                                "src": "https://mephimtvi.com/wp-content/uploads/2024/05/rachel-getting-married-thumb.jpg",
+                                "alt": "Rachel Getting Married",
+                                "title": "Rachel Getting Married"
+                              }
+                            }
+                          },
+                          "badge": {
+                            "class": "movie-badge",
+                            "badge-episode": "Vietsub",
+                            "badge-status": "Hoàn thành"
+                          }
+                        },
+                    "summary": {
+                          "class": "movie-summary",
+                          "aria-label": "Rachel Getting Married - Rachel Getting Married",
+                          "span": "Rachel Getting Married",
+                          "h3": "Rachel Getting Married"
+                        }
+                },
+                {
+                "id": 5,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/sau-dat-khong-lo-dao-shrieker/",
+                    "thumb": {
+                        "class": "movie-image",
+                        "aria-label": "thumbnail",
+                        "img": {
+                            "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/sau-dat-khong-lo-dao-shrieker-thumb.jpg",
+                            "alt": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                            "title": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                            "noscript": {
+                              "img": {
+                                "src": "https://mephimtvi.com/wp-content/uploads/2024/05/sau-dat-khong-lo-dao-shrieker-thumb.jpg",
+                                "alt": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                                "title": "Sâu Đất Khổng Lồ: Đảo Shrieker"
+                              }
+                            }
+                          },
+                          "badge": {
+                            "class": "movie-badge",
+                            "badge-episode": "Vietsub",
+                            "badge-status": "Hoàn thành"
+                          }
+                        },
+                    "summary": {
+                        "class": "movie-summary",
+                        "aria-label": "Tremors: Shrieker Island - Sâu Đất Khổng Lồ: Đảo Shrieker",
+                        "span": "Tremors: Shrieker Island",
+                        "h3": "Sâu Đất Khổng Lồ: Đảo Shrieker"
+                        }
+                      }
+            // Thêm các phần tử khác tương tự ở đây
+        ];
+        {% if recommend_movies %}               
+            const recommendMovies = {{ recommend_movies | tojson }};
+            {% else %}
+            console.error('recommend_movies is undefined or not rendered properly');
+        {% endif %}
+
+        const moviesList = document.getElementById('movies-list');
+
+        recommendMovies.forEach(recommendMovie => {
+            const movieId = recommendMovie[0];
+            const rating = recommendMovie[1];
+            const matchedMovie = movies.find(movie => movie.id === movieId);
+
+            if (matchedMovie) {
+                const article = document.createElement('article');
+                article.classList.add(matchedMovie.class);
+                article.setAttribute('role', matchedMovie.role);
+
+                const a = document.createElement('a');
+                a.href = matchedMovie.link;
+                a.setAttribute('role', 'link');
+
+                const thumb = document.createElement('thumb');
+                thumb.classList.add(matchedMovie.thumb.class);
+                thumb.setAttribute('aria-label', matchedMovie.thumb['aria-label']);
+
+                const img = document.createElement('img');
+                img.width = matchedMovie.thumb.img.width;
+                img.height = matchedMovie.thumb.img.height;
+                img.decoding = matchedMovie.thumb.img.decoding;
+                img.src = matchedMovie.thumb.img['data-lazy-src'];
+                img.alt = matchedMovie.thumb.img.alt;
+                img.title = matchedMovie.thumb.img.title;
+
+                const noscriptImg = document.createElement('img');
+                noscriptImg.width = matchedMovie.thumb.img.width;
+                noscriptImg.height = matchedMovie.thumb.img.height;
+                noscriptImg.decoding = matchedMovie.thumb.img.decoding;
+                noscriptImg.src = matchedMovie.thumb.img.noscript.img.src;
+                noscriptImg.alt = matchedMovie.thumb.img.noscript.img.alt;
+                noscriptImg.title = matchedMovie.thumb.img.noscript.img.title;
+
+                noscriptImg.appendChild(img);
+
+                const spanBadgeEpisode = document.createElement('span');
+                spanBadgeEpisode.classList.add(matchedMovie.thumb.badge.class);
+                spanBadgeEpisode.textContent = matchedMovie.thumb.badge['badge-episode'];
+
+                const spanBadgeStatus = document.createElement('span');
+                spanBadgeStatus.classList.add(matchedMovie.thumb.badge.class);
+                spanBadgeStatus.textContent = matchedMovie.thumb.badge['badge-status'];
+
+                const summary = document.createElement('summary');
+                summary.classList.add(matchedMovie.summary.class);
+                summary.setAttribute('aria-label', matchedMovie.summary['aria-label']);
+
+                const span = document.createElement('span');
+                span.textContent = matchedMovie.summary.span;
+
+                const h3 = document.createElement('h3');
+                h3.textContent = matchedMovie.summary.h3;
+
+                thumb.appendChild(noscriptImg);
+                thumb.appendChild(spanBadgeEpisode);
+                thumb.appendChild(spanBadgeStatus);
+
+                summary.appendChild(span);
+                summary.appendChild(h3);
+
+                a.appendChild(thumb);
+                a.appendChild(summary);
+
+                article.appendChild(a);
+
+                moviesList.appendChild(article);
+            }
+        });
+    </script>
+
+            	<script>
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                </script>
+                <script data-type="lazy" data-src="https://www.googletagmanager.com/gtm.js?id=GTM-PJKN77K"></script>	
+                <script type="text/javascript" id="rocket-browser-checker-js-after">
+            /* <![CDATA[ */
+            "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+            /* ]]> */
+            </script>
+            <script type="text/javascript" id="rocket-preload-links-js-extra">
+            /* <![CDATA[ */
+            var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/mephimtvi.com","onHoverDelay":"100","rateThrottle":"3"};
+            /* ]]> */
+            </script>
+            <script type="text/javascript" id="rocket-preload-links-js-after">
+            /* <![CDATA[ */
+            (function() {
+            "use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+            }());
+            /* ]]> */
+            </script>
+            <script type="text/javascript" id="common-script-js-extra">
+            /* <![CDATA[ */
+            var movie = {"ajax_url":"https:\/\/mephimtvi.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/mephimtvi.com","episode":"","player":{"jumpPrev":"Tua l\u1ea1i 10 gi\u00e2y","jumpNext":"Tua t\u1edbi 10 gi\u00e2y","cast":"Chuy\u1ec3n qua TV"},"message":{"loading":"\u0110ang t\u1ea3i...","light":"B\u1eadt \u0111\u00e8n","error":"C\u00f3 l\u1ed7i x\u1ea3y ra, vui l\u00f2ng th\u1eed l\u1ea1i","notURL":"Kh\u00f4ng t\u00ecm th\u1ea5y link phim","episode":"B\u1ea1n \u0111ang xem d\u1edf t\u1eadp %s, b\u1ea1n c\u00f3 mu\u1ed1n xem ti\u1ebfp kh\u00f4ng ???"},"tracking":{"counter":true,"url":""},"popup":{"counter":5,"delay":0},"adv":{"brandShow":false,"brand":[{"name":"fb88","offset":"pre"}],"ajaxAdv":[],"url":"https:\/\/mephimtvi.com\/wp-banner\/","skip":{"message":"B\u1ecf qua qu\u1ea3ng c\u00e1o","ajaxTime":2,"timer":5},"brandInfo":{"logo":"https:\/\/mephimtvi.com\/wp-banner\/6686\/logo.png","url":"http:\/\/6686vn86.com\/p\/3IhT","position":"top-right"}}};
+            /* ]]> */
+            </script>
+            
+            <script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+            if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+            images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+            if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://mephimtvi.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script><script src="https://mephimtvi.com/wp-content/cache/min/1/b465a580c577b88be396263aec5fc7d6.js" data-minify="1" defer></script></body>
+                      
+</html>

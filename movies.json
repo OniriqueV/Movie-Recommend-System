@@ -1,0 +1,204 @@
+{
+    "movies": [
+        {
+            "id": 0,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/tram-truong/",
+            "thumb": {
+                "class": "movie-image",
+                "aria-label": "thumbnail",
+                "img": {
+                    "width": 250,
+                    "height": 375,
+                    "decoding": "async",
+                    "src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                    "alt": "Trạm Trưởng",
+                    "title": "Trạm Trưởng",
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                    "noscript": {
+                        "img": {
+                            "width": 250,
+                            "height": 375,
+                            "decoding": "async",
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                            "alt": "Trạm Trưởng",
+                            "title": "Trạm Trưởng"
+                        }
+                    }
+                },
+                "badge": {
+                    "class": "movie-badge",
+                    "badge-episode": "Vietsub",
+                    "badge-status": "Hoàn thành"
+                }
+            },
+            "summary": {
+                "class": "movie-summary",
+                "aria-label": "Chief of Station - Trạm Trưởng",
+                "span": "Chief of Station",
+                "h3": "Trạm Trưởng"
+            }
+        },
+        {
+            "id": 1,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/hanh-tinh-khi-vuong-quoc-moi/",
+            "thumb": {
+                "class": "movie-image",
+                "aria-label": "thumbnail",
+                    "img": {
+                    "width": 250,
+                    "height": 375,
+                    "decoding": "async",
+                    "src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                    "alt": "Hành Tinh Khỉ: Vương Quốc Mới",
+                    "title": "Hành Tinh Khỉ: Vương Quốc Mới",
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                        "noscript": {
+                            "img": {
+                            "width": 250,
+                            "height": 375,
+                            "decoding": "async",
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                            "alt": "Hành Tinh Khỉ: Vương Quốc Mới",
+                            "title": "Hành Tinh Khỉ: Vương Quốc Mới"
+                            }
+                    }
+                },
+                "badge": {
+                "class": "movie-badge",
+                "badge-episode": "Vietsub",
+                "badge-status": "Sắp chiếu"
+                }
+            },
+            "summary": {
+            "class": "movie-summary",
+            "aria-label": "Kingdom of the Planet of the Apes - Hành Tinh Khỉ: Vương Quốc Mới",
+            "span": "Kingdom of the Planet of the Apes",
+            "h3": "Hành Tinh Khỉ: Vương Quốc Mới"
+                }
+            },
+            {
+            "id": 2,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/y-niem-ve-anh/",
+                "thumb": {
+                  "img": {
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/y-niem-ve-anh-thumb.jpg",
+                    "alt": "Ý Niệm Về Anh",
+                    "title": "Ý Niệm Về Anh",
+                    "noscript": {
+                      "img": {
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/y-niem-ve-anh-thumb.jpg",
+                        "alt": "Ý Niệm Về Anh",
+                        "title": "Ý Niệm Về Anh"
+                      }
+                    }
+                  },
+                  "badge": {
+                    "badge-episode": "Vietsub",
+                    "badge-status": "Sắp chiếu"
+                  }
+                },
+                "summary": {
+                  "aria-label": "The Idea of You - Ý Niệm Về Anh",
+                  "span": "The Idea of You",
+                  "h3": "Ý Niệm Về Anh"
+                }
+            },
+            { 
+            "id": 3,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/chi-em-lang-nhang/",
+                "thumb": {
+                  "img": {
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/chi-em-lang-nhang-thumb.jpg",
+                    "alt": "Chị Em Lăng Nhăng",
+                    "title": "Chị Em Lăng Nhăng",
+                    "noscript": {
+                      "img": {
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/chi-em-lang-nhang-thumb.jpg",
+                        "alt": "Chị Em Lăng Nhăng",
+                        "title": "Chị Em Lăng Nhăng"
+                      }
+                    }
+                  },
+                  "badge": {
+                    "badge-episode": "Vietsub",
+                    "badge-status": "Hoàn thành"
+                  }
+                },
+            "summary": {
+                  "aria-label": "The Sister of Ursula - Chị Em Lăng Nhăng",
+                  "span": "The Sister of Ursula",
+                  "h3": "Chị Em Lăng Nhăng"
+                }
+            },
+              
+                
+            {
+            "id": 4,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/rachel-getting-married/",
+                "thumb": {
+                    "img": {
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/rachel-getting-married-thumb.jpg",
+                    "alt": "Rachel Getting Married",
+                    "title": "Rachel Getting Married",
+                        "noscript": {
+                          "img": {
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/rachel-getting-married-thumb.jpg",
+                            "alt": "Rachel Getting Married",
+                            "title": "Rachel Getting Married"
+                          }
+                        }
+                      },
+                      "badge": {
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                      }
+                    },
+                "summary": {
+                      "aria-label": "Rachel Getting Married - Rachel Getting Married",
+                      "span": "Rachel Getting Married",
+                      "h3": "Rachel Getting Married"
+                    }
+            },
+            {
+            "id": 5,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/sau-dat-khong-lo-dao-shrieker/",
+                "thumb": {
+                      "img": {
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/sau-dat-khong-lo-dao-shrieker-thumb.jpg",
+                        "alt": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                        "title": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                        "noscript": {
+                          "img": {
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/sau-dat-khong-lo-dao-shrieker-thumb.jpg",
+                            "alt": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                            "title": "Sâu Đất Khổng Lồ: Đảo Shrieker"
+                          }
+                        }
+                      },
+                      "badge": {
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                      }
+                    },
+                "summary": {
+                    "aria-label": "Tremors: Shrieker Island - Sâu Đất Khổng Lồ: Đảo Shrieker",
+                    "span": "Tremors: Shrieker Island",
+                    "h3": "Sâu Đất Khổng Lồ: Đảo Shrieker"
+                    }
+                  }
+                       
+     ]
+}
+

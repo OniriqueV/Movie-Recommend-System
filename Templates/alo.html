@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Mê phim TV - Xem phim trực tuyến miễn phí</title>
+    <link rel="stylesheet" href="https://mephimtvi.com/wp-content/cache/min/1/4a183cd4781762c26c945d8c744f99d0.css" media="all" data-minify="1" />
+    <link rel="canonical" href="https://mephimtvi.com/" />
+    <meta property="og:url" content="https://mephimtvi.com/" />
+    <meta property="og:image" content="https://mephimtvi.com/wp-content/uploads/2022/05/graph-default-image.jpg" />
+    <meta property="og:image:secure_url" content="https://mephimtvi.com/wp-content/uploads/2022/05/graph-default-image.jpg" />
+</head>
+<body>
+    <h1>List of Movies</h1>
+    <div id="movies-list"></div>
+    <script>
+        const movies = [
+            {
+                "id": 0,
+                "class": "movie-item",
+                "role": "article",
+                "link": "https://mephimtvi.com/tram-truong/",
+                "thumb": {
+                    "class": "movie-image",
+                    "aria-label": "thumbnail",
+                    "img": {
+                        "width": 250,
+                        "height": 375,
+                        "decoding": "async",
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                        "alt": "Trạm Trưởng",
+                        "title": "Trạm Trưởng",
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                        "noscript": {
+                            "img": {
+                                "width": 250,
+                                "height": 375,
+                                "decoding": "async",
+                                "src": "https://mephimtvi.com/wp-content/uploads/2024/05/tram-truong-thumb.jpg",
+                                "alt": "Trạm Trưởng",
+                                "title": "Trạm Trưởng"
+                            }
+                        }
+                    },
+                    "badge": {
+                        "class": "movie-badge",
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                    }
+                },
+                "summary": {
+                    "class": "movie-summary",
+                    "aria-label": "Chief of Station - Trạm Trưởng",
+                    "span": "Chief of Station",
+                    "h3": "Trạm Trưởng"
+                }
+            },
+            {
+            "id": 1,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/hanh-tinh-khi-vuong-quoc-moi/",
+            "thumb": {
+                "class": "movie-image",
+                "aria-label": "thumbnail",
+                    "img": {
+                    "width": 250,
+                    "height": 375,
+                    "decoding": "async",
+                    "src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                    "alt": "Hành Tinh Khỉ: Vương Quốc Mới",
+                    "title": "Hành Tinh Khỉ: Vương Quốc Mới",
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                        "noscript": {
+                            "img": {
+                            "width": 250,
+                            "height": 375,
+                            "decoding": "async",
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg",
+                            "alt": "Hành Tinh Khỉ: Vương Quốc Mới",
+                            "title": "Hành Tinh Khỉ: Vương Quốc Mới"
+                            }
+                    }
+                },
+                "badge": {
+                "class": "movie-badge",
+                "badge-episode": "Vietsub",
+                "badge-status": "Sắp chiếu"
+                }
+            },
+            "summary": {
+            "class": "movie-summary",
+            "aria-label": "Kingdom of the Planet of the Apes - Hành Tinh Khỉ: Vương Quốc Mới",
+            "span": "Kingdom of the Planet of the Apes",
+            "h3": "Hành Tinh Khỉ: Vương Quốc Mới"
+                }
+            },
+            {
+            "id": 2,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/y-niem-ve-anh/",
+                "thumb": {
+                  "img": {
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/y-niem-ve-anh-thumb.jpg",
+                    "alt": "Ý Niệm Về Anh",
+                    "title": "Ý Niệm Về Anh",
+                    "noscript": {
+                      "img": {
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/y-niem-ve-anh-thumb.jpg",
+                        "alt": "Ý Niệm Về Anh",
+                        "title": "Ý Niệm Về Anh"
+                      }
+                    }
+                  },
+                  "badge": {
+                    "badge-episode": "Vietsub",
+                    "badge-status": "Sắp chiếu"
+                  }
+                },
+                "summary": {
+                  "aria-label": "The Idea of You - Ý Niệm Về Anh",
+                  "span": "The Idea of You",
+                  "h3": "Ý Niệm Về Anh"
+                }
+            },
+            { 
+            "id": 3,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/chi-em-lang-nhang/",
+                "thumb": {
+                  "img": {
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/chi-em-lang-nhang-thumb.jpg",
+                    "alt": "Chị Em Lăng Nhăng",
+                    "title": "Chị Em Lăng Nhăng",
+                    "noscript": {
+                      "img": {
+                        "src": "https://mephimtvi.com/wp-content/uploads/2024/05/chi-em-lang-nhang-thumb.jpg",
+                        "alt": "Chị Em Lăng Nhăng",
+                        "title": "Chị Em Lăng Nhăng"
+                      }
+                    }
+                  },
+                  "badge": {
+                    "badge-episode": "Vietsub",
+                    "badge-status": "Hoàn thành"
+                  }
+                },
+            "summary": {
+                  "aria-label": "The Sister of Ursula - Chị Em Lăng Nhăng",
+                  "span": "The Sister of Ursula",
+                  "h3": "Chị Em Lăng Nhăng"
+                }
+            },
+              
+                
+            {
+            "id": 4,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/rachel-getting-married/",
+                "thumb": {
+                    "img": {
+                    "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/rachel-getting-married-thumb.jpg",
+                    "alt": "Rachel Getting Married",
+                    "title": "Rachel Getting Married",
+                        "noscript": {
+                          "img": {
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/rachel-getting-married-thumb.jpg",
+                            "alt": "Rachel Getting Married",
+                            "title": "Rachel Getting Married"
+                          }
+                        }
+                      },
+                      "badge": {
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                      }
+                    },
+                "summary": {
+                      "aria-label": "Rachel Getting Married - Rachel Getting Married",
+                      "span": "Rachel Getting Married",
+                      "h3": "Rachel Getting Married"
+                    }
+            },
+            {
+            "id": 5,
+            "class": "movie-item",
+            "role": "article",
+            "link": "https://mephimtvi.com/sau-dat-khong-lo-dao-shrieker/",
+                "thumb": {
+                      "img": {
+                        "data-lazy-src": "https://mephimtvi.com/wp-content/uploads/2024/05/sau-dat-khong-lo-dao-shrieker-thumb.jpg",
+                        "alt": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                        "title": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                        "noscript": {
+                          "img": {
+                            "src": "https://mephimtvi.com/wp-content/uploads/2024/05/sau-dat-khong-lo-dao-shrieker-thumb.jpg",
+                            "alt": "Sâu Đất Khổng Lồ: Đảo Shrieker",
+                            "title": "Sâu Đất Khổng Lồ: Đảo Shrieker"
+                          }
+                        }
+                      },
+                      "badge": {
+                        "badge-episode": "Vietsub",
+                        "badge-status": "Hoàn thành"
+                      }
+                    },
+                "summary": {
+                    "aria-label": "Tremors: Shrieker Island - Sâu Đất Khổng Lồ: Đảo Shrieker",
+                    "span": "Tremors: Shrieker Island",
+                    "h3": "Sâu Đất Khổng Lồ: Đảo Shrieker"
+                    }
+                  }
+            // Thêm các phần tử khác tương tự ở đây
+        ];
+
+        movies.forEach(movie => {
+            const article = document.createElement('article');
+            article.classList.add('movie-item');
+            article.setAttribute('role', 'article');
+
+            const a = document.createElement('a');
+            a.href = movie.link;
+            a.setAttribute('role', 'link');
+
+            const thumb = document.createElement('thumb');
+            thumb.classList.add('movie-image');
+            thumb.setAttribute('aria-label', 'thumbnail');
+
+            const img = document.createElement('img');
+            img.width = 250;
+            img.height = 375;
+            img.decoding = 'async';
+            img.src = movie.thumb.img['data-lazy-src'];
+            img.alt = movie.thumb.img.alt;
+            img.title = movie.thumb.img.title;
+
+            const noscriptImg = document.createElement('img');
+            noscriptImg.width = 250;
+            noscriptImg.height = 375;
+            noscriptImg.decoding = 'async';
+            noscriptImg.src = movie.thumb.img.noscript.img.src;
+            noscriptImg.alt = movie.thumb.img.noscript.img.alt;
+            noscriptImg.title = movie.thumb.img.noscript.img.title;
+
+            // Thêm phần tử img vào trong phần tử noscript
+            noscriptImg.appendChild(img);
+
+            const spanBadgeEpisode = document.createElement('span');
+            spanBadgeEpisode.classList.add('badge');
+            spanBadgeEpisode.classList.add('badge-episode');
+            spanBadgeEpisode.textContent = movie.thumb.badge['badge-episode'];
+
+            const spanBadgeStatus = document.createElement('span');
+            spanBadgeStatus.classList.add('badge');
+            spanBadgeStatus.classList.add('badge-status');
+            spanBadgeStatus.textContent = movie.thumb.badge['badge-status'];
+
+            const summary = document.createElement('summary');
+            summary.classList.add('movie-summary');
+            summary.setAttribute('aria-label', movie.summary['aria-label']);
+
+            const span = document.createElement('span');
+            span.textContent = movie.summary.span;
+
+            const h3 = document.createElement('h3');
+            h3.textContent = movie.summary.h3;
+
+            thumb.appendChild(noscriptImg); // Thêm phần tử noscript vào phần tử thumb
+
+            thumb.appendChild(spanBadgeEpisode);
+            thumb.appendChild(spanBadgeStatus);
+
+            summary.appendChild(span);
+            summary.appendChild(h3);
+
+            a.appendChild(thumb);
+            a.appendChild(summary);
+
+            article.appendChild(a);
+
+            document.getElementById('movies-list').appendChild(article);
+        });
+    </script>
+</body>
+</html>
